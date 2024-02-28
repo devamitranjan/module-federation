@@ -1,0 +1,12 @@
+{
+  "name": "module-federation",
+  "version": "1.0.0",
+  "description": "Monorepo for module federation with webpack as host and vite as remote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
