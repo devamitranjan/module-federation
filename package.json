@@ -4,6 +4,11 @@
   "description": "Monorepo for module federation with webpack as host and vite as remote",
   "main": "index.js",
   "scripts": {
+    "remote:serve": "pnpm --filter remote run serve",
+    "remote:build": "pnpm --filter remote run build",
+    "host:serve": "pnpm --filter host run serve",
+    "host:build": "pnpm --filter host run build",
+    "host:run": "pnpm --filter host run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
