@@ -9,6 +9,7 @@
     "host:serve": "pnpm --filter host run serve",
     "host:build": "pnpm --filter host run build",
     "host:run": "pnpm --filter host run start",
+    "host-craco": "pnpm --filter host-craco",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
